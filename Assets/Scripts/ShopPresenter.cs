@@ -26,22 +26,7 @@ namespace Stardew.InventorySystem
 
         void Update()
         {
-            if (Input.GetKeyDown(KeyCode.A))
-            {
-                PrevCategory();
-            }
-            else if (Input.GetKeyDown(KeyCode.D))
-            {
-                NextCategory();
-            }
-            else if (Input.GetKeyDown(KeyCode.W))
-            {
-                PrevItem();
-            }
-            else if (Input.GetKeyDown(KeyCode.S))
-            {
-                NextItem();
-            }
+            
         }
 
         public void PrevCategory()
